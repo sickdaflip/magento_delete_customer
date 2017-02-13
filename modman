@@ -7,8 +7,8 @@ app/design/frontend/rwd/default/layout/*                        app/design/front
 app/design/frontend/rwd/default/template/*                      app/design/frontend/rwd/default/template/
 app/etc/modules/*.xml                                           app/etc/modules/
 app/locale/de_DE/Aurora_Deletecustomer.csv                      app/locale/de_DE/Aurora_Deletecustomer.csv
-app/locale/de_DE/templates/email/deletecustomer_template.html   app/locale/de_DE/templates/email/deletecustomer_template.html
+app/locale/de_DE/template/email/deletecustomer_template.html   app/locale/de_DE/template/email/deletecustomer_template.html
 app/locale/en_US/Aurora_Deletecustomer.csv                      app/locale/en_US/Aurora_Deletecustomer.csv
-app/locale/en_US/templates/email/deletecustomer_template.html   app/locale/en_US/templates/email/deletecustomer_template.html
+app/locale/en_US/template/email/deletecustomer_template.html   app/locale/en_US/template/email/deletecustomer_template.html
 skin/frontend/default/default/css/aurora/aurora.css             skin/frontend/default/default/css/aurora/aurora.css
 skin/frontend/rwd/default/css/aurora/aurora.css                 skin/frontend/rwd/default/css/aurora/aurora.css
