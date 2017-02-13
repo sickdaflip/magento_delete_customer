@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink" translate="label" module="deletecustomer">
+                <name>Delete Account</name>
+                <path>deletecustomer/index/index</path>
+                <label>Delete Account</label>
+            </action>
+        </reference> 
+    </customer_account>
+    <deletecustomer_index_index>
+        <update handle="customer_account"/>        
+        <reference name="head">           
+            <action method="addCss">
+                <script>css/aurora/aurora.css</script>
+            </action>
+        </reference>        
+        <reference name="content">
+            <block type="deletecustomer/deletecustomer" name="deletecustomer" template="deletecustomer/deletecustomer.phtml" />
+        </reference>        
+    </deletecustomer_index_index>
+</layout> 

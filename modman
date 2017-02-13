@@ -1,0 +1,14 @@
+app/code/community/Aurora/*                             app/code/community/Aurora/
+app/design/frontend/base/default/layout/*               app/design/frontend/base/default/layout/
+app/design/frontend/base/default/template/*             app/design/frontend/base/default/template/
+app/design/frontend/default/default/layout/*            app/design/frontend/default/default/layout/
+app/design/frontend/default/default/template/*          app/design/frontend/default/default/template/
+app/design/frontend/rwd/default/layout/*                app/design/frontend/rwd/default/layout/
+app/design/frontend/rwd/default/template/*              app/design/frontend/rwd/default/template/
+app/etc/modules/*.xml                                   app/etc/modules/
+app/locale/de_DE/Aurora_Deletecustomer.csv              app/locale/de_DE/Aurora_Deletecustomer.csv
+app/locale/de_DE/email/deletecustomer_template.html    app/locale/de_DE/email/deletecustomer_template.html
+app/locale/en_US/Aurora_Deletecustomer.csv              app/locale/en_US/Aurora_Deletecustomer.csv
+app/locale/en_US/email/deletecustomer_template.html    app/locale/en_US/email/deletecustomer_template.html
+skin/frontend/default/default/css/aurora/aurora.css     skin/frontend/default/default/css/aurora/aurora.css
+skin/frontend/rwd/default/css/aurora/aurora.css         skin/frontend/rwd/default/css/aurora/aurora.css

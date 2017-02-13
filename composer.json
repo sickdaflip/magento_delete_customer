@@ -1,0 +1,15 @@
+{
+  "name": "sickdaflip/magento_delete_customer",
+  "license": "MIT",
+  "type": "magento-module",
+  "description": "Magento 1.9.3. Module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "SickDaFlip",
+      "email": "philippbreitsprecher@gmail.com"
+    }
+  ]
+}

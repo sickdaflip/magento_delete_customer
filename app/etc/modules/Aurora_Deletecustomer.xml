@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aurora_Deletecustomer>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Aurora_Deletecustomer>
+    </modules>
+</config>

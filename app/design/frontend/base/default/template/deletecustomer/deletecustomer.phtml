@@ -1,0 +1,20 @@
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?> 
+<div class="page-title">
+    <h1><?php echo Mage::helper('downloadable')->__('Delete Account') ?></h1>
+</div>
+<p>
+    <?php echo $this->__('Are sure you want to permanently delete your Account? Remember, this action is irreversible.') ?><br />
+    <?php echo $this->__('If you are sure, click '); ?>     
+</p>
+<div class="buttons-set">
+    <p class="back-link"><a href="<?php echo $this->escapeUrl($this->getBackUrl()) ?>"><small>&laquo; </small><?php echo $this->__('Back') ?></a></p>
+    <button onclick="show_confirm()" title="<?php echo $this->__('Delete My Account') ?>" class="button aurora-delete-customer"><span><span><?php echo $this->__('Delete My Account') ?></span></span></button>
+</div>
+
+<script type="text/javascript">
+    function show_confirm() {
+        if (confirm("<?php echo $this->__('Are you sure?'); ?>")) {
+            window.location.href = '<?php echo Mage::getUrl('*/*/sendConfirmationMail') ?>';
+        }
+    }
+</script>
